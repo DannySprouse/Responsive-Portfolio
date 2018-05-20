@@ -1,0 +1,388 @@
+/* GENERAL */
+
+body, html {
+    background-image: url("../images/backgroundimage.jpg");
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* HEADER INFORMATION */
+
+#headerBar {
+    background-color: #fff;
+    border-bottom: 6px solid #ccc;
+    height: 80px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+#nameDanny {
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+
+/* MAIN SECTION */
+
+.mainSection {
+    background-color: #fff;
+    border: 6px solid #ddd;
+    color: #777;
+    width: 100%;
+}
+
+img {
+    padding: 15px;
+    float: left;
+}
+
+p {
+    margin: 14px 35px 35px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#infinity {
+    font-size: 36px;
+    text-align: center;
+}
+
+hr {
+    width: 96%;
+}
+
+.pageWrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    position: absolute;
+    top: 20px;
+    margin-left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+ul li {
+    float: left;
+    margin-right: 2px;
+    padding: 5px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    padding: 2px;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+a:link {
+    color: #ff6540;
+}
+
+a:visited {
+    color: #CC1E14;
+}
+
+a:hover {
+    color: #1474cc;
+}
+
+a:active {
+    color: #00fff2;
+}
+
+.barFade {
+    color: lightgrey;
+}
+
+
+/* FOOTER */
+
+#line {
+    background-color: #4aaaa5;
+    height: 7px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/* PORTFOLIO-SPECIFIC PAGE CODE */
+
+img {
+    float: left;
+    width: 30%;
+    margin-right: 0.25%;
+    margin-bottom: 0.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.left1 {
+    float: left;
+    width: 258px;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 165px;
+    position: absolute;
+    z-index: 3;
+}
+
+.right1 {
+    float: left;
+    width: 258px;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 335px;
+    margin-top: 165px;
+    position: absolute;
+    z-index: 3;
+}
+
+.left2 {
+    float: left;
+    width: 258px;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 405px;
+    position: absolute;
+    z-index: 3;
+}
+
+.right2 {
+    float: left;
+    width: 258px;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 335px;
+    margin-top: 405px;
+    position: absolute;
+    z-index: 3;
+}
+
+.left3 {
+    float: left;
+    width: 258px;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 644px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+/* CONTACT-SPECIFIC PAGE CODE */
+
+form {
+    margin-left: 12px;
+}
+
+label {
+    color: #4aaaa5;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.75;
+}
+
+input[type=text] {
+    width: 98%;
+    padding: 6px 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 98%;
+    height: 100px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: 1px;
+    border-radius: 10%;
+    color: #fff;
+    font-weight: 700;
+    padding:  12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+input[type=submit]:hover {
+    background-color: #ff6540;
+}
+
+input:hover, textarea:hover {
+    border: 2px solid #ff6540;
+}
+
+/* Small devices (640px wide and larger) */
+@media screen and (max-width: 600px) {
+    body, html {
+        overflow-x: hidden;
+    }
+    
+    .wrap {
+        padding-bottom: 100px;
+    }
+
+    .mainSection {
+        width: 300px;
+        margin-left: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 35px;
+        line-height: 25px;
+        float: left;
+        background-color: #fff;
+        border-bottom: 8px solid #ddd;
+        padding-left: 55px;
+    }
+    
+    ul li {
+        float: left;
+        margin-right: 2px;
+        padding: 5px;
+    }
+
+    ul li:last-child {
+        margin-right: 0;
+    }
+    
+    ul li a {
+        padding: 2px;
+        display: inline;
+    }
+
+    nav {
+        top: 75px;
+    }
+
+    #nameDanny {
+        width: 325px;
+        height: 75px;
+    }
+
+    p {
+        width: 270px;
+    }
+
+    img {
+        float: none;
+        width: 270px;
+        height: 270px;
+    }
+
+    .footer {
+        width: 355px;
+        height: 90px;
+        line-height: 90px;
+    }
+
+    hr {
+        width: 275px;
+        margin-left: 15px;
+    }
+
+    .left1 {
+
+    }
+}
+/* could not get the text in the portfolio to align back over the images on the smaller screen - should have been in the left and right classes, but I could not get them to line up esp for the smaller viewport. */
